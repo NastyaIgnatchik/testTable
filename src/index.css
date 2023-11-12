@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer components {
+    .cardRow {
+       @apply grid   h-auto  border-b-2  border-solid border-gray-300 min-h-[60px] items-stretch justify-items-stretch text-center;
+    }
+
+}
